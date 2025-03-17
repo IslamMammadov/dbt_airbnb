@@ -1,0 +1,14 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directory
+dbt/
+
+# dbt artefacts
+target/
+logs/
+
+# dbt profiles.yml (if it contains sensitive information)
+~/.dbt/profiles.yml

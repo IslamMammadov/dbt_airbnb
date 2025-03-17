@@ -1,0 +1,16 @@
+version: 2
+
+exposures:
+  - name: Executive Dashoard
+    type: dashboard
+    maturity: low
+    url: https://eb78c2c2.us2a.app.preset.io/superset/dashboard/p/jg3pWpDWR1L/
+    description: Executive Dashboard about airnb and hosts
+
+    depends_on:
+      - ref('dim_listings_with_hosts')
+      - ref('mart_full_moon_reviews')
+
+    owner:
+      name: Islam
+      email: islam.bu93@gmail.com
