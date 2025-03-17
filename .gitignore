@@ -1,7 +1,6 @@
-# Python bytecode files
-*.pyc
-*.pyo
-__pycache__/
+# .gitignore
+*./pyc
+__pycache__
 
 # Virtual environment directory
 dbt/
@@ -9,6 +8,10 @@ dbt/
 # dbt artefacts
 target/
 logs/
-
-# dbt profiles.yml (if it contains sensitive information)
-~/.dbt/profiles.yml
+dbt/target/
+dbt/manifest/
+dbt/.dbt/
+*.env
+.venv/
+.idea/
+.DS_Store
